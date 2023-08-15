@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="./image/icons8-bank-building-64.png" type="image/xl-icon">
   </head>
-  <body>
+  <body class="bg-teal-100">
     <header class="mx-4 mt-4 lg:mt-1 text-center border-4 bg-slate-400">
       <h1 class="text-xl lg:text-7xl font-extrabold">
         Welcome to <span class="text-red-500">RHR Bank!!!</span>
@@ -17,7 +17,7 @@
       <!-- Deposit, withdraw, balance section -->
       <section class=" grid md:flex lg:flex gap-4 justify-center p-5">
         <!-- Deposit -->
-        <div class="bg-green-400 w-full lg:w-1/4 text-center text-4xl text-white pt-10">
+        <div class="bg-green-400 w-full lg:w-1/4 p-14 text-center text-4xl text-white pt-10">
           <h2>Deposit</h2>
           <p class="pt-4">$<span id="deposit">00</span></p>
         </div>
@@ -78,7 +78,7 @@
         </div>
       </section>
       <div class="flex justify-center">
-      <button class="bg-slate-200 hover:bg-white w-1/3 h-12 my-5 text-2xl rounded-lg font-bold text-indigo-800 justify-center" onclick="window.location.href = 'index.html'">Logout</button>
+      <button class="bg-indigo-800 hover:bg-indigo-400 w-1/3 h-12 my-5 text-2xl rounded-lg font-bold text-white justify-center" onclick="window.location.href = 'index.html'">Logout</button>
     </div>
     </main>
     <script src="./JS/home.js"></script>
